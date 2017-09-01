@@ -1,0 +1,30 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.buildpath
+.project
+.settings/
+.build/
+.idea/
+nbproject/
+
+# LOGs
+npm-debug.log
+
+# RESOURCES
+dist/
+node_modules/
+typings/
+*.spec.js
+*.spec.js.map
+*.spec.d.ts
+*.js
+*.js.map
+
+/compiled
+*.metadata.json
+
+*.map.js
+*.d.ts
