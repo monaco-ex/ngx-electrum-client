@@ -2,7 +2,6 @@
 /*
  * This code from `electrum-client` npm package.
  */
-declare function require(s: string): any;
 
 import {Observable, Subject } from "rxjs";
 

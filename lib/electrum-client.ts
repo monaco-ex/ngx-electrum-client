@@ -1,3 +1,4 @@
+import {Component} from "@angular/core";
 import { Client } from "./client";
 
 export class ElectrumClient extends Client {

@@ -8,8 +8,7 @@
     "prepublish": "ngc",
     "build": "ngc",
     "pack": "npm pack ../",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "test-dummy": "tslint *.ts && ngc && karma start",
+    "test": "karma start",
     "ngc": "ngc"
   },
   "repository": {
@@ -26,19 +25,35 @@
     "url": "https://github.com/monaco-ex/ngx-electrum-client/issues"
   },
   "homepage": "https://github.com/monaco-ex/ngx-electrum-client#readme",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
-    "@angular/common": "^2.4.9",
-    "@angular/compiler": "^2.4.9",
+    "@angular/common": "^2.4.10",
+    "@angular/compiler": "^2.4.10",
     "@angular/compiler-cli": "^2.4.9",
-    "@angular/core": "^2.4.9",
-    "@angular/platform-browser": "^2.4.9",
+    "@angular/core": "^2.4.10",
+    "@angular/platform-browser": "^2.4.10",
+    "@angular/platform-browser-dynamic": "^2.4.10",
     "@angular/platform-server": "^2.4.9",
     "@types/node": "^6.0.54",
+    "babel-loader": "^6.4.0",
+    "babel-preset-es2015": "^6.24.1",
+    "html-webpack-plugin": "^2.30.1",
+    "jasmine-core": "^2.8.0",
+    "karma": "^1.7.1",
+    "karma-babel-preprocessor": "^6.0.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-coverage-istanbul-reporter": "^1.3.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-jasmine-html-reporter": "^0.2.2",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-webpack": "^2.0.4",
+    "raw-loader": "^0.5.1",
+    "reflect-metadata": "^0.1.10",
     "rxjs": "^5.1.0",
+    "ts-loader": "^2.3.4",
     "tslint": "^5.7.0",
     "typescript": "^2.5.0",
-    "zone.js": "^0.7.6"
+    "webpack": "^1.13.1",
+    "zone.js": "^0.7.8"
   }
 }

@@ -26,10 +26,7 @@
   "files": [
     "index.ts",
     "lib/client.ts",
-    "lib/electrum-client.module.ts",
     "lib/electrum-client.service.ts",
-    "lib/electrum-client.ts",
-    "lib/init_socket.ts",
-    "lib/util.ts"
+    "lib/electrum-client.module.ts"
   ]
 }
